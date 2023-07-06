@@ -1,0 +1,371 @@
+@media (min-width:  360px){
+    .navigation{
+      position: relative;
+      background-color: blue;
+      height: 600px;
+    }
+   .circle img{
+      display: none;
+    }
+  
+  
+  
+    .circle2 img{
+      position: absolute;
+      width: 430px;
+      left: -35px;
+      top: 238px;
+      transform: rotate(0deg);
+      margin: 0;
+      padding: 0;
+    }
+  
+    
+    
+  
+  
+      
+  .square img{
+    position: absolute;
+    left: 70px;
+    height: 180px;
+    top: 180px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+  }
+  
+  .profile{
+    position: absolute;
+    left: 80px;
+    width: 185px;
+    top: 158px;
+    
+  }
+  /* .line{
+    background-color: white;
+    height: 0px;
+    width: 0px;
+    top: 0px;
+    left: 0px;
+  } */
+  /* .line2{
+    position: relative;
+    background-color: white;
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+  } */
+  .details-information{
+    position: absolute;
+    top: 450px;
+    left: 0px;
+    margin: 15px;
+    text-align: center;
+  }
+  .details-information h3{
+    font-size: 20px;
+    font-weight: bold;
+    left: 0px;
+  }
+  .details-information h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;  
+  }
+  .details-information button{
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+    background-color: blue;
+    
+  }
+  .Years{
+    position: relative;
+    background-color: white;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    text-align: center;
+    font-size: 5px;
+  }
+  .Years h1{
+    font-size: 30px;
+    color: black;
+  }
+  .Years p{
+    font-size: 15px;
+  }
+  
+  .Years{
+    position: absolute;
+    top: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    width: 100%;
+    gap: 0px;
+    color: black;
+   
+  }
+  
+  
+  .services{
+    position: absolute;
+    top: 350px;
+  }
+  
+  .services h1{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  
+  }
+  
+  .heading {
+    position: absolute;
+    top: -60px;
+    color: black;
+    left: -250px;
+    }
+  
+  
+  .service-order{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  
+  
+  }
+  
+  .service-order > .column{
+    text-align: center;
+    padding: 0 0;
+    margin: 0 auto;
+  }
+  
+  .services img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+  }
+  .services a{
+    font-size: 15px;
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .services h6{
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  
+  
+  .services-tittle{
+    top: 200px;
+    left: -50px;
+    margin-left: 90px;
+    font-size: 25px;
+  }
+  .projects{
+    position: absolute;
+    top: 55rem;
+  }
+  
+  .projects .heading {
+    position: absolute;
+    color: black;
+    left: -310px;
+    top: -60px;
+    text-align: left;
+    }
+  
+    .projects h1{
+      font-size: 25px;
+     color: black;
+  
+    }
+  
+  .card-footer{
+    text-align: center;
+  }
+  
+  .projects a{
+    height: 30px;
+    width:130px;
+    margin-bottom: 40px;
+    font-size: 11px;
+    background-color: blue;
+    font-weight: bold;
+  }
+  
+  
+  .projects img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .images1{
+    height: 150px;
+     width: 180px;
+    margin: 0 auto;
+  }
+  
+  .image2{
+    height: 150px;
+    width: 180px;
+    margin: 0 auto;
+  }
+  
+  .image3{
+    height: 150px;
+    width: 180px;
+    margin: 0 auto;
+  }
+  
+  .projects .card-text{
+    text-align: left;
+  }
+  .projects .card-text1{
+    text-align: left;
+    color: blue;
+  }
+  
+  .projects h5{
+    text-align: left;
+  }
+  .Testimonials{
+    position: relative;
+    top: 160rem;
+  }
+  .testim .cont div .img img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+  }
+  
+  .contact-section{
+    position: relative;
+      top: 165rem;
+      font-size: 8px;
+      width: 100%;
+      height: 100px;
+      background-image: radial-gradient(circle at 17% 77%, rgba(17, 17, 17,0.04) 0%, rgba(17, 17, 17,0.04) 50%,rgba(197, 197, 197,0.04) 50%, rgba(197, 197, 197,0.04) 100%),radial-gradient(circle at 26% 17%, rgba(64, 64, 64,0.04) 0%, rgba(64, 64, 64,0.04) 50%,rgba(244, 244, 244,0.04) 50%, rgba(244, 244, 244,0.04) 100%),radial-gradient(circle at 44% 60%, rgba(177, 177, 177,0.04) 0%, rgba(177, 177, 177,0.04) 50%,rgba(187, 187, 187,0.04) 50%, rgba(187, 187, 187,0.04) 100%),linear-gradient(19deg, rgb(31,28,250),rgb(34, 2, 159));
+      padding-bottom: 125px;
+    }
+  
+  
+  .contact-section h1{
+    top: -60px;
+    left: 5px;
+    font-size: 25px;
+    position: relative;
+    font-weight: bold;
+  }
+  
+  .contact-section a{
+    position: absolute;
+    box-shadow: 0px 0px 5px 1px white;
+    border: 1px black;
+    font-size: 12px;
+    font-weight: 15px;
+    left: 135px;
+    top: 175px;
+  }
+  
+  .contact-section p{
+    position: absolute;
+    top: 80px;
+    margin: 0px 27px 0px 27px;
+    font-size: 10px;
+  }
+  
+  .footer{
+    position: absolute;
+    font-size: 10px;
+    background-color: white;
+    top: 185rem;
+  }
+  
+  
+  
+  .footer-section a{
+    color: black;
+    text-decoration-line: none;
+  }
+  
+  .footer-section img{
+    border-radius: 25px;
+    height: 20px;
+    left:-25px;
+  }
+  
+  .f-details{
+    position: absolute;
+    margin-right: 130px;
+    top: 90px;
+  }
+  
+  .f-details1{
+    position: relative;
+    margin-right: 130px;
+    top: 45px;
+  }
+  
+  .f-details2{
+    position: absolute;
+    margin-right: 130px;
+    top: 190px;
+  }
+  
+  .f-details3{
+    position: absolute;
+    margin-right: 130px;
+    top: 205px;
+  }
+  
+  
+  #About{
+    position: absolute;
+    top: 50px;
+    margin-left: 55px;
+  }
+  
+  #services{
+    position: absolute;
+    margin-left: 230px;
+    top: 150px;
+  }
+  
+  #contacts{
+    position: relative;
+    top: 40px;
+    margin-left: -182px;
+  }
+  
+  
+  
+      .hamburger.active .bar:nth-child(2) {
+          opacity: 0;
+      
+      }
+  
+      .hamburger.active .bar:nth-child(1) {
+          transform: translateY(8px) rotate(45deg);
+        
+      }
+  
+      .hamburger.active .bar:nth-child(3) {
+          transform: translateY(-8px) rotate(-45deg);
+          
+      }
+  
+     
+  
+  
+  }
+  
